@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% load static %}  
+
+<script src="{% static 'ckeditor/ckeditor.js' %}"></script>
+
+{% block title %}
+Update
+{% endblock %}
+
+{% block content %}
+
+<h1 class="h2">Update Task</h1>
+
+<form action="" method="post">
+    {% csrf_token %}
+    {{ form.media }}
+    {{ form.as_p }}
+    <input type="submit" value="Update Task">  <!-- Submit button -->
+</form>
+
+<script>
+    CKEDITOR.replace('id_description');  <!-- Replace textarea with id 'id_description' with CKEditor instance -->
+</script>
+
+{% endblock %}
