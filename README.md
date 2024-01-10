@@ -8,3 +8,11 @@ that use the [Django Template Langauge](https://docs.djangoproject.com/en/5.0/re
 project is a complete demonstration of Task Management System where the user can create their account and log in 
 to the application. In the tasks section user can create a task with the rich text editor. 
 From the home page, the user is capable of viewing, editing, and deletion a particular task.
+
+## Overview
+
+1. [Python](https://www.python.org/)
+2. [Django Web Framework](https://www.djangoproject.com/)
+3. [Sqlite](https://www.sqlite.org/index.html)
+4. [Bootstrap](https://getbootstrap.com/)
+5. HTML, CSS and JavaScript
